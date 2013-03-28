@@ -3,7 +3,7 @@
 
 	<groupId>org.atemsource.dojo</groupId>
 	<artifactId>maven-dojo-build-plugin</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>S2 Maven Dojo Build Plugin</name>
