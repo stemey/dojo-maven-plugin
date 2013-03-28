@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.stemey.dojo</groupId>
+	<groupId>org.atemsource.dojo</groupId>
 	<artifactId>maven-dojo-build-plugin</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
@@ -18,6 +18,18 @@
 		<developerConnection>scm:git:git@github.com:stemey/dojo-maven-plugin.git</developerConnection>
 		<url>https://github.com/stemey/dojo-maven-plugin.git</url>
 	</scm>
+	<distributionManagement>
+		<repository>
+			<id>sonatype-nexus-staging</id>
+			<name>sonatype-nexus-staging</name>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
+		<snapshotRepository>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
