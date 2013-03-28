@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.atemsource.dojo</groupId>
+	<groupId>com.github.stemey.dojo</groupId>
 	<artifactId>maven-dojo-build-plugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
@@ -14,17 +14,10 @@
 	</properties>
 	
 	<scm>
-		<connection>scm:svn:http://svn/SIM_Simyo/10-Portal/54-Maven-Plugins/maven-dojo-build/trunk</connection>
-		<developerConnection>scm:svn:http://svn/SIM_Simyo/10-Portal/54-Maven-Plugins/maven-dojo-build/trunk</developerConnection>
-		<url>http://svn/SIM_Simyo/10-Portal/54-Maven-Plugins/maven-dojo-build/trunk</url>
+		<connection>scm:git://github.com/stemey/dojo-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:stemey/dojo-maven-plugin.git</developerConnection>
+		<url>https://github.com/stemey/dojo-maven-plugin.git</url>
 	</scm>
-	<distributionManagement>
-		<repository>
-			<id>s2-repository</id>
-			<name>S2 Repository</name>
-			<url>scpexe://maven/home/maven/repository</url>
-		</repository>
-	</distributionManagement>
 
 	<dependencies>
 		<dependency>
